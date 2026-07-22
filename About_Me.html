@@ -1,0 +1,103 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+ box-sizing: border-box;
+}
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+ background-color: rgb(232, 206, 13);
+ padding: 30px;
+ text-align: center;
+ font-size: 35px;
+ color: white;
+}
+
+nav {
+ float: left;
+ width: 30%;
+ height: 300px; /* only for demonstration, should be removed */
+ background: rgb(12, 12, 12);
+ padding: 20px;
+}
+
+nav ul {
+ list-style-type: none;
+ padding: 0;
+}
+
+article {
+ float: left;
+ padding: 20px;
+ width: 70%;
+ background-color: #f1f1f1;
+ height: 300px; /* only for demonstration, should be removed */
+}
+
+section::after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+/* Style the footer */
+footer {
+ background-color: #777;
+ padding: 10px;
+ text-align: center;
+ color: white;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+ nav, article {
+   width: 100%;
+   height: auto;
+ }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+ <h2>Zayd Martin</h2>
+ <h4>From North Philly</h4>
+</header>
+
+<section>
+ <nav>
+   <img src="/Users/admin/Desktop/Zayd_website/webpage/Profilepic.jpg"
+  alt="Mountain" width="175" height="150">
+  <img src="/Users/admin/Desktop/ Zayd_website/webpage/Image.png"
+  alt="Mountain" width="175" height="150">"
+
+   <!-- Tells the browser to look inside the Webpages folder -->
+   <a href="file:///users/admin/Desktop/ Zayd_website/webpage/Home.html">Home</a>
+ 
+   </ul>
+ </nav>
+  <article>
+   <h1>Zayd</h1>
+   <p text-align="center">Hi I'm Zayd I'm from North philly, I lived in North philadelpiha all my life and I am apart of the first cohort for the Hidden Genius Project .</p>
+   <p>I like being apart of this program .</p>
+
+ </article>
+</section>
+
+<footer>
+ <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
+

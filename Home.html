@@ -1,0 +1,102 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+ box-sizing: border-box;
+}
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+ background-color: rgb(232, 206, 13);
+ padding: 30px;
+ text-align: center;
+ font-size: 35px;
+ color: white;
+}
+
+nav {
+ float: left;
+ width: 20%;
+ height: 300px; /* only for demonstration, should be removed */
+ background: rgb(12, 12, 12);
+ padding: 20px;
+}
+
+nav ul {
+ list-style-type: none;
+ padding: 0;
+}
+
+article {
+ float: left;
+ padding: 20px;
+ width: 70%;
+ background-color: #f1f1f1;
+ height: 300px; /* only for demonstration, should be removed */
+}
+
+section::after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+/* Style the footer */
+footer {
+ background-color: #777;
+ padding: 10px;
+ text-align: center;
+ color: white;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+ @media (max-width: 300px) {
+ nav, article {
+   width: 100%;
+   height: auto;
+ }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+ <h2>Student of The HGP</h2>
+ <h4>Philadelphia, The Hidden Genius Project Program</h4>
+</header>
+
+<section>
+ <nav>
+  <img src="/Users/admin/Desktop/ Zayd_website/webpage/ProfileJPG.JPG" 
+alt="Zayd" width="300" height="350">
+  <ul>
+   <!-- Tells the browser to look inside the Webpages folder -->
+   <li><a href="file:///users/admin/Desktop/ Zayd_website/webpage/About_Me.html">About Me</a></li>
+  <li><a href="/Users/admin/Desktop/ Zayd_website/webpage/Profilepic.jpgl"> </a></li>
+ </ul>
+   
+ </nav>
+  <article>
+   <h1>Zayd</h1>
+   <p>Hi, my name is Zayd, I go to the hidden genius project to learn about coding using the programming language called "Python"</p>
+   <p>The reason I go here is to stay out of the streets and put this amount of free time into something productive to my future.</p>
+
+ </article>
+</section>
+
+<footer>
+ <p>Thank you!</p>
+</footer>
+
+</body>
+</html>
+
+
